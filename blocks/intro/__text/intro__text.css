@@ -1,0 +1,27 @@
+.intro__text {
+  margin: 40px 0 0 calc((100% - 984px)/2);
+  width: 690px;
+  font-size: 16px;
+  line-height: 26.08px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1080px) {
+  .intro__text {
+    margin: 40px 0 0 calc((100% - 92.2%)/2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    margin: 40px 24px 0 24px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__text {
+    margin: 40px 16px 0 16px;
+    width: auto;
+  }
+}
