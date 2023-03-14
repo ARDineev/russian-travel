@@ -5,4 +5,10 @@
   font-size: 18px;
   line-height: 22px;
   margin-top: 12px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }
