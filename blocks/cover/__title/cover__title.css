@@ -1,0 +1,20 @@
+.cover__title {
+  margin: 0;
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+  width: 560px;
+  text-align: center;
+  padding-top: calc((62.5% - 250px) / 2); /*62.5% - высота картинки, 250px - высота текста */
+  z-index: 1;
+}
+
+@media screen and (max-width: 580px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 900;
+    width: 288px;
+    padding-top: calc((62.5% - 134px) / 2);
+  }
+}

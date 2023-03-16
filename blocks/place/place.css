@@ -6,6 +6,10 @@
   padding-bottom: 80px;
 }
 
+.place:last-child {
+  padding-bottom: 0;
+}
+
 @media screen and (max-width: 1080px) {
   .place {
     width: calc(100% - 96px);
