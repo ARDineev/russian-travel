@@ -1,14 +1,14 @@
 .intro__text {
   margin: 40px 0 0 calc((100% - 984px)/2);
-  width: 690px;
+  max-width: 690px;
   font-size: 16px;
-  line-height: 26.08px;
+  line-height: 26px;
   font-weight: 400;
 }
 
 @media screen and (max-width: 1080px) {
   .intro__text {
-    margin: 40px 0 0 calc((100% - 92.2%)/2);
+    margin: 40px 0 0 calc((100% - 90.625%)/2);
   }
 }
 
@@ -22,6 +22,5 @@
 @media screen and (max-width: 425px) {
   .intro__text {
     margin: 40px 16px 0 16px;
-    width: auto;
   }
 }

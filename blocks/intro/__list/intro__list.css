@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1080px) {
   .intro__list {
-    margin: 33px 0 0 calc((100% - 92.2%)/2);
+    margin: 33px 0 0 calc((100% - 90.625%)/2);
   }
 }
 
@@ -24,6 +24,5 @@
 @media screen and (max-width: 425px) {
   .intro__list {
     margin: 34px 16px 0 16px;
-    width: auto;
   }
 }

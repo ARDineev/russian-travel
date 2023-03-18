@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 1080px) {
   .intro__title {
-    margin: 92px 0 0 calc((100% - 92.2%)/2);
+    margin: 92px 0 0 calc((100% - 90.625%)/2);
   }
 }
 

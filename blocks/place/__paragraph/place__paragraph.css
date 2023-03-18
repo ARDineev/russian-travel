@@ -18,6 +18,7 @@
   .place__paragraph {
     font-weight: 400;
     font-size: 16px;
+    line-height: 26px;
   }
   .place__paragraph:last-child {
     margin-top: 25px;
